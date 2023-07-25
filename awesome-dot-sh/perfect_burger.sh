@@ -4,7 +4,7 @@
 pick_option() {
   options=(
     "The meat should be ground beef with a fat content of at least 18%, preferably freshly ground or even home-ground for maximum flavor and tenderness."
-    "The cheese should be American cheese, or another type that melts well and complements the beef flavor."
+    "The cheese should be Cheddar cheese, or another type that melts well and complements the beef flavor."
     "The bun should be a soft and squishy burger or potato roll, lightly toasted with some mayonnaise on the cut sides for extra crispiness and flavor."
     "The toppings should be simple and fresh, such as lettuce, tomato, onion, pickle, ketchup, mustard, and mayonnaise."
   )
