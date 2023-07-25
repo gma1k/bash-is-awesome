@@ -39,5 +39,4 @@ esac
 pick_option
 
 echo
-echo "I hope this helps you make the perfect burger."
 echo "Bon appetit!"
