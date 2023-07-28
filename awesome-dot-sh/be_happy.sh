@@ -5,8 +5,6 @@ say_compliment() {
     "You are awesome, and you know it."
     "You are smart, and you show it."
     "You are beautiful, and you glow it."
-    "You are strong, and you grow it."
-    "You are kind, and you sow it."
   )
   index=$((RANDOM % ${#compliments[@]}))
   echo "${compliments[$index]}"
@@ -16,8 +14,6 @@ say_joke() {
   jokes=(
     "How do you make a tissue dance? You put a little boogie in it."
     "What do you call a fish wearing a bowtie? Sofishticated."
-    "What do you call a dog that can tell time? A watch dog."
-    "What do you get when you cross a snowman and a vampire? Frostbite."
     "Why did the chicken go to the seance? To get to the other side."
   )
   index=$((RANDOM % ${#jokes[@]}))
@@ -26,9 +22,7 @@ say_joke() {
 
 say_quote() {
   quotes=(
-    "Don't cry because it's over, smile because it happened. - Dr. Seuss"
     "Be the change that you wish to see in the world. - Mahatma Gandhi"
-    "The only thing we have to fear is fear itself. - Franklin D. Roosevelt"
     "The journey of a thousand miles begins with a single step. - Lao Tzu"
     "The most important thing is to enjoy your life - to be happy - it's all that matters. - Audrey Hepburn"
   )
@@ -39,8 +33,6 @@ say_quote() {
 say_tip() {
   tips=(
     "Take a deep breath and relax your shoulders."
-    "Drink some water and stay hydrated."
-    "Listen to some music and dance like no one's watching."
     "Write down three things you are grateful for today."
     "Call or text someone you love and tell them how much they mean to you."
   )
