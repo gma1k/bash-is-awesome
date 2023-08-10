@@ -20,7 +20,7 @@ function prank2() {
 
 # Make the terminal say rude things to the user
 function prank3() {
-    possible_messages=("You are an idiot" "Go away" "Nobody likes you" "You smell bad" "You are a loser")
+    possible_messages=("Happy to see you so bad xD" "Go away!" "You smell bad xD" "Loser xD")
     random_message=${possible_messages[$RANDOM % ${#possible_messages[@]}]}
     echo "echo \"$random_message\"" >> ~/.bashrc
     echo "Prank 3: Terminal will say \"$random_message\" every time you open it. How rude!"
